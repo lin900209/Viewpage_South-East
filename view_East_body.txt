@@ -1,0 +1,332 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_app/components/no_account_text.dart';
+import 'package:flutter_app/constants.dart';
+import 'package:flutter_app/scareens/forgot_password/components/forgot_password_form.dart';
+import 'package:flutter_app/size_cinfig.dart';
+import 'package:flutter_app/scareens/food/food_page_screen.dart';
+import 'package:flutter_app/scareens/food/components/food.page.dart';
+import 'package:flutter_app/scareens/food_East/food_East_screen.dart';
+import 'package:getwidget/getwidget.dart';
+
+class Body extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return ListView(
+      children: <Widget>[
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/View/東部/東部1.jpeg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("東華大學"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('好喜歡喔！'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('不喜歡，需改進'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/View/東部/東部2.jpeg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("立川漁場"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('好喜歡喔！'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('不喜歡，需改進'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/View/東部/東部3.jpeg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("雲山水植物農場"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('好喜歡喔！'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('不喜歡，需改進'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/View/東部/東部4.jpeg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("Mr. Sam - 山姆先生咖啡館"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('好喜歡喔！'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('不喜歡，需改進'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/View/東部/東部5.jpeg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("光復糖廠"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('好喜歡喔！'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('不喜歡，需改進'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/View/東部/東部6.jpeg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("舞鶴北回歸線"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('好喜歡喔！'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('不喜歡，需改進'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/View/東部/東部7.jpeg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("玉富自行車道歐亞及菲律賓板塊交界紀念碑"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('好喜歡喔！'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('不喜歡，需改進'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/View/東部/東部8.jpeg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("六十石山 "),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('好喜歡喔！'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('不喜歡，需改進'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/View/東部/東部9.jpeg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("大坡池"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('好喜歡喔！'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('不喜歡，需改進'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        ),
+        GFCard(
+          boxFit: BoxFit.cover,
+          titlePosition: GFPosition.start,
+          image: Image.asset(
+            'assets/View/東部/東部10.jpeg',
+            height: MediaQuery.of(context).size.height * 0.2,
+            width: MediaQuery.of(context).size.width,
+            fit: BoxFit.cover,
+          ),
+          showImage: true,
+
+          content: Text("池上伯朗大道"),
+          buttonBar: GFButtonBar(
+            children: <Widget>[
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('好喜歡喔！'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '喜歡',
+              ),
+              GFButton(
+                onPressed: () {
+                  final snackBar = new SnackBar (content: new Text('不喜歡，需改進'));
+                  Scaffold.of(context).showSnackBar(snackBar);
+                },
+                text: '不喜歡',
+              ),
+            ],
+          ),
+        )
+
+      ],
+    );
+
+  }
+
+}

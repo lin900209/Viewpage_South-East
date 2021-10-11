@@ -1,0 +1,18 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_app/scareens/View_South/components/view_South_body.dart';
+
+
+
+
+class Viewpagesouth extends StatelessWidget {
+  static String routeName = "/viewpagesouth";
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('View Page'),
+      ),
+      body:Body(),
+    );
+  }
+}

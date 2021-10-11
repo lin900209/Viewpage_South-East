@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_app/scareens/View_East/components/view_East_body.dart';
+
+
+
+class Viewpageeast extends StatelessWidget {
+  static String routeName = "/viewpageeast";
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('View Page'),
+      ),
+      body:Body(),
+    );
+  }
+}
